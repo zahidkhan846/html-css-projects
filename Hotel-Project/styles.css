@@ -128,7 +128,7 @@ p {
 }
 
 #home-info {
-  height: 300px;
+  height: 400px;
 }
 
 #home-info .info-img {
@@ -198,7 +198,8 @@ p {
 
 #abt-info h1 {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 30px;
+  font-size: 30px;
 }
 
 #abt-info .info-left {
@@ -219,10 +220,10 @@ p {
 
 #abt-info .info-right img {
   display: block;
-  width: 70%;
+  width: 100%;
   margin: auto;
   padding: 20px;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 
 #testimonials {
@@ -259,18 +260,16 @@ p {
 #contact-form h1 {
   text-align: center;
   font-size: 30px;
-  padding: 20px;
 }
 
 #contact-form p {
   text-align: center;
-  color: #f4f4f4;
 }
 
 #contact-form form {
-  margin: auto;
+  margin: 30px auto;
   width: 450px;
-  background-color: #f7c08a;
+  background-color: #fff;
   padding: 30px;
   border-radius: 5px;
 }
@@ -288,23 +287,25 @@ p {
 #contact-form .form-group textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #e93f14;
+  border: 1px solid #444;
   border-radius: 5px;
 }
 
 #contact-form .form-group input:focus,
 #contact-form .form-group textarea:focus {
   outline: none;
-  border: 2px solid #14e97f;
+  border: 2px solid #333;
 }
 
 .btn-form {
   width: 100%;
-  background-color: #0b9c54;
+  background-color: #49c1a2;
+  padding: 7px;
+  text-transform: capitalize;
 }
 
 .btn-form:hover {
-  background-color: #444;
+  background-color: #109272;
   color: #f4f4f4;
 }
 
