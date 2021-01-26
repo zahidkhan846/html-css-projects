@@ -50,6 +50,7 @@ img {
   padding: 0 20px;
   position: fixed;
   top: 0px;
+  transition: 1s;
 }
 
 .navbar.top {
