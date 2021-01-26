@@ -15,7 +15,7 @@
   </head>
   <body id="home">
     <header class="hero">
-      <div id="navbar" class="navbar">
+      <div id="navbar" class="navbar top">
         <h1 class="logo">
           <span class="text-primary">
             <i class="fas fa-book-open"></i> Edge</span
@@ -68,7 +68,7 @@
           </div>
         </div>
       </section>
-      <section class="solutios flex-columns">
+      <section id="solutions" class="solutios flex-columns">
         <div class="row">
           <div class="column">
             <div class="column-1">
@@ -142,7 +142,7 @@
                 cupiditate. Voluptas, nam eveniet veniam architecto delectus
                 asperiores sequi.
               </p>
-              <a href="#" class="btn btn-outline"
+              <a href="blog.html" class="btn btn-outline"
                 ><i class="fas fa-chevron-right"></i> Go to Blogs</a
               >
             </div>
@@ -230,20 +230,26 @@
           </div>
         </div>
       </section>
-      <footer class="footer bg-dark">
-        <p class="text-secondary">Fallow us on</p>
-        <div class="social-links">
-          <a href=""><i class="fab fa-facebook fa-2x"></i></a>
-          <a href=""><i class="fab fa-twitter fa-2x"></i></a>
-          <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
-          <a href=""><i class="fab fa-youtube fa-2x"></i></a>
-        </div>
-        <p class="text-secondary">
-          <span class="text-white">Copyright &copy; 2021</span> |
-          <span class="text-primary"> Edge</span
-          ><span class="text-white">Ledger</span>
-        </p>
-      </footer>
     </main>
+    <footer class="footer bg-dark">
+      <p>Fallow us on</p>
+      <div class="social-links">
+        <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+        <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+        <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href=""><i class="fab fa-youtube fa-2x"></i></a>
+      </div>
+      <p>Copyright &copy; 2021 | EdgeLedger</p>
+    </footer>
+    <script>
+      const navbar = document.getElementById("navbar");
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove("top");
+        } else {
+          navbar.classList.add("top");
+        }
+      };
+    </script>
   </body>
 </html>
